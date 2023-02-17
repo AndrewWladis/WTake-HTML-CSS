@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Permanent+Marker&display=swap');
+
+body {
+    background-color: #1D1D1D;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+footer {
+    width: 100%;
+    height: 15%;
+    margin-top: 5%;
+    text-align: right;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+footer p {
+    font-family: Impact;
+    color: #a6a6a6;
+    background-color: black;
+    font-size: 250%;
+    padding: 0.5%;
+    margin-bottom: 0;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    height: 12vh;
+    width: 100%;
+    border-bottom: 2px solid #707070;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.choice {
+    width: 50%;
+    height: 100%;
+    border-radius: 5%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.choice h1 {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 8vmin;
+    margin: 0;
+    padding: 0;
+}
+
+.choice h2 {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 4vmin;
+    margin: 0;
+    padding: 0;
+}
+
+.choice-container {
+    width: 95vmin;
+    height: 60vmin;
+    margin: 3%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5%;
+}
+
+.countdown {
+    width: 85vmin;
+    height: 20vmin;
+    background-color: #5C5C5C;
+    border-radius: 999em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15vmin;
+    color: #a6a6a6;
+    font-family: Verdana;
+    font-weight: 600;
+}
+
+.h1-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.h1-container > h1 {
+    font-size: 10vmin;
+    margin: 0;
+    padding: 0;
+}
+
+.inside-content {
+    width: 100%;
+    padding: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 27%;
+}
+
+.nav-container > img {
+    height: 8vmin;
+    width: 8vmin;
+}
+
+.take {
+    font-family: Impact;
+    color: #a6a6a6;
+}
+
+.w {
+    font-family: 'Permanent Marker', cursive;
+    color: red;
+}

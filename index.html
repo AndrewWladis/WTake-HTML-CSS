@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W Take</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="h1-container" onclick="window.location.href = './index.html'">
+            <h1 class="w">W</h1>
+            <h1 class="take">TAKE</h1>
+        </div>
+        <div class="nav-container">
+            <img src="assets/icons/search.png" alt="search" onclick="window.location.href = './search.html'">
+            <img src="assets/icons/plus.png" alt="plus" onclick="window.location.href = './addcharacter.html'">
+            <img src="assets/icons/pfp.png" alt="profile" onclick="window.location.href = './profile.html'">
+        </div>
+    </nav>
+    <div class="inside-content">
+        <div class="choice-container">
+            <div class="choice">
+                <h1>Batman</h1>
+                <h2>(DC Comics)</h2>
+            </div>
+            <div class="choice">
+                <h1>Superman</h1>
+                <h2>(DC Comics)</h2>
+            </div>
+        </div>
+        <div class="choice-container">
+            <div class="choice">
+                <h1>Aquaman</h1>
+                <h2>(DC Comics)</h2>
+            </div>
+            <div class="choice">
+                <h1>The Tick</h1>
+                <h2>(NEC Comics)</h2>
+            </div>
+        </div>
+        <div class="choice-container">
+            <div class="choice">
+                <h1>Homelander</h1>
+                <h2>(Amazon's The Boys)</h2>
+            </div>
+            <div class="choice">
+                <h1>Spider-Man</h1>
+                <h2>(Marvel Comics)</h2>
+            </div>
+        </div>
+        <div class="choice-container">
+            <div class="choice">
+                <h1>Omni-Man</h1>
+                <h2>(Image Comics)</h2>
+            </div>
+            <div class="choice">
+                <h1>Iron Man</h1>
+                <h2>(Marvel Comics)</h2>
+            </div>
+        </div>
+        <div class="choice-container">
+            <div class="choice">
+                <h1>The Terror</h1>
+                <h2>(Amazon's The Tick)</h2>
+            </div>
+            <div class="choice">
+                <h1>Dr. Sheldon Cooper</h1>
+                <h2>(The Big Bang Theory)</h2>
+            </div>
+        </div>
+        <div class="countdown">
+            5:15:19
+        </div>
+        <footer>
+            <p>CREATED BY ANDY WLADIS</p>
+        </footer>
+    </div>
+</body>
+<script>
+    function getRandomColor() {
+        var letters = '0123456789ABCDEF';
+        var color = '#';
+        for (var i = 0; i < 6; i++) {
+            color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+    }
+
+    var choices = document.getElementsByClassName('choice');
+    for (var i = 0; i < choices.length; i++) {
+        choices.item(i).style.backgroundColor = getRandomColor();
+    }
+</script>
+</html>

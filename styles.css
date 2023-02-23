@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Permanent+Marker&display=swap');
 
+@keyframes die {
+    0% { width: 50%; opacity: 100%; }
+    100% { width: 0%; opacity: 0%; }
+}
+
+@keyframes getThicc {
+    0% { width: 50%; }
+    100% { width: 100%; border-radius: 5%; }
+}
+
+@keyframes fadetext {
+    0% { opacity: 100%; }
+    50% { opacity: 0%; }
+    100% { opacity: 100%; }
+}
+
 body {
     background-color: #1D1D1D;
 }
@@ -44,7 +60,6 @@ nav {
 .choice {
     width: 50%;
     height: 100%;
-    border-radius: 5%;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -90,6 +105,14 @@ nav {
     color: #a6a6a6;
     font-family: Verdana;
     font-weight: 600;
+}
+
+.die {
+    animation: die 1s;
+}
+
+.getThicc {
+    animation: getThicc 1s;
 }
 
 .h1-container {

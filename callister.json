@@ -1,0 +1,252 @@
+{
+    "characters": {
+        "BatmanDCComics": {
+            "name": "Batman",
+            "universe": "DC Comics",
+            "color": "4, 69, 74",
+            "wins": 3,
+            "games": 5,
+            "votes": 1
+        },
+        "SupermanDCComics": {
+            "name": "Superman",
+            "universe": "DC Comics",
+            "color": "166, 21, 194",
+            "wins": 3,
+            "games": 5,
+            "votes": 2
+        },
+        "FlashDCComics": {
+            "name": "Flash",
+            "universe": "DC Comics",
+            "color": "166, 21, 194",
+            "wins": 3,
+            "games": 5,
+            "votes": 2
+        },
+        "KidFlashDCComics": {
+            "name": "Kid Flash",
+            "universe": "DC Comics",
+            "color": "70, 178, 89",
+            "wins": 3,
+            "games": 5,
+            "votes": 3
+        },
+        "SuperboyDCComics": {
+            "name": "Superboy",
+            "universe": "DC Comics",
+            "color": "75, 223, 25",
+            "wins": 3,
+            "games": 5,
+            "votes": 3
+        },
+        "WonderWomanDCComics": {
+            "name": "Wonder Woman",
+            "universe": "DC Comics",
+            "color": "94, 234, 174",
+            "wins": 3,
+            "games": 5,
+            "votes": 4
+        },
+        "SpiderManMarvelComics": {
+            "name": "Spider-Man",
+            "universe": "Marvel Comics",
+            "color": "14, 46, 249",
+            "wins": 3,
+            "games": 5,
+            "votes": 1
+        },
+        "CaptainAmericaMarvelComics": {
+            "name": "Captain America",
+            "universe": "Marvel Comics",
+            "color": "238, 24, 203",
+            "wins": 3,
+            "games": 5,
+            "votes": 4
+        },
+        "RedSkullMarvelComics": {
+            "name": "Red Skull",
+            "universe": "Marvel Comics",
+            "color": "2, 199, 178",
+            "wins": 3,
+            "games": 5,
+            "votes": 4
+        },
+        "WolverineMarvelComics": {
+            "name": "Wolverine",
+            "universe": "Marvel Comics",
+            "color": "233, 75, 59",
+            "wins": 3,
+            "games": 5,
+            "votes": 5
+        },
+        "IronManMarvelComics": {
+            "name": "Iron Man",
+            "universe": "Marvel Comics",
+            "color": "191, 70, 191",
+            "wins": 3,
+            "games": 5,
+            "votes": 5
+        },
+        "MrFantasticMarvelComics": {
+            "name": "Mr. Fantastic",
+            "universe": "Marvel Comics",
+            "color": "240, 157, 229",
+            "wins": 3,
+            "games": 5,
+            "votes": 6
+        },
+        "TheThingMarvelComics": {
+            "name": "The Thing",
+            "universe": "Marvel Comics",
+            "color": "211, 148, 153",
+            "wins": 3,
+            "games": 5,
+            "votes": 7
+        },
+        "HulkMarvelComics": {
+            "name": "Hulk",
+            "universe": "Marvel Comics",
+            "color": "19, 27, 119",
+            "wins": 3,
+            "games": 5,
+            "votes": 8
+        },
+        "AntManMarvelComics": {
+            "name": "Ant-Man",
+            "universe": "Marvel Comics",
+            "color": "212, 31, 74",
+            "wins": 3,
+            "games": 5,
+            "votes": 1
+        },
+        "WaspMarvelComics": {
+            "name": "Wasp",
+            "universe": "Marvel Comics",
+            "color": "1, 244, 198",
+            "wins": 3,
+            "games": 5,
+            "votes": 6
+        },
+        "KangMarvelComics": {
+            "name": "Ant-Man",
+            "universe": "Marvel Comics",
+            "color": "175, 171, 41",
+            "wins": 3,
+            "games": 5,
+            "votes": 6
+        },
+        "RobinDCComics": {
+            "name": "Robin",
+            "universe": "DC Comics",
+            "color": "117, 234, 91",
+            "wins": 3,
+            "games": 5,
+            "votes": 7
+        },
+        "BeastBoyDCComics": {
+            "name": "Beast Boy",
+            "universe": "DC Comics",
+            "color": "119, 46, 41",
+            "wins": 3,
+            "games": 5,
+            "votes": 8
+        },
+        "StarfireDCComics": {
+            "name": "Starfire",
+            "universe": "DC Comics",
+            "color": "16, 44, 171",
+            "wins": 3,
+            "games": 5,
+            "votes": 8
+        },
+        "RavenDCComics": {
+            "name": "Raven",
+            "universe": "DC Comics",
+            "color": "111, 117, 247",
+            "wins": 3,
+            "games": 5,
+            "votes": 9
+        },
+        "BrainiacDCComics": {
+            "name": "Brainiac",
+            "universe": "DC Comics",
+            "color": "61, 240, 144",
+            "wins": 3,
+            "games": 5,
+            "votes": 1
+        },
+        "BlackMantaDCComics": {
+            "name": "Black Manta",
+            "universe": "DC Comics",
+            "color": "249, 77, 241",
+            "wins": 3,
+            "games": 5,
+            "votes": 2
+        },
+        "LexLuthorDCComics": {
+            "name": "Lex Luthor",
+            "universe": "DC Comics",
+            "color": "173, 251, 42",
+            "wins": 3,
+            "games": 5,
+            "votes": 3
+        },
+        "AqualadDCComics": {
+            "name": "Aqualad",
+            "universe": "DC Comics",
+            "color": "187, 162, 135",
+            "wins": 3,
+            "games": 5,
+            "votes": 4
+        },
+        "SuperboyPrimeDCComics": {
+            "name": "Superboy Prime",
+            "universe": "DC Comics",
+            "color": "81, 56, 243",
+            "wins": 3,
+            "games": 5,
+            "votes": 5
+        },
+        "HalJordanDCComics": {
+            "name": "Green Lantern (Hal Jordan",
+            "universe": "DC Comics",
+            "color": "89, 176, 160",
+            "wins": 3,
+            "games": 5,
+            "votes": 11
+        },
+        "GuyGardnerDCComics": {
+            "name": "Green Lantern (Guy Gardner",
+            "universe": "DC Comics",
+            "color": "130, 230, 134",
+            "wins": 3,
+            "games": 5,
+            "votes": 10
+        },
+        "JokerDCComics": {
+            "name": "Joker",
+            "universe": "DC Comics",
+            "color": "189, 18, 163",
+            "wins": 3,
+            "games": 5,
+            "votes": 12
+        },
+        "JokerJoker": {
+            "name": "Joker",
+            "universe": "Joker (2019)",
+            "color": "106, 160, 103",
+            "wins": 3,
+            "games": 5,
+            "votes": 13
+        },
+        "AquababyDCComics": {
+            "name": "Aquababy",
+            "universe": "DC Comics",
+            "color": "101, 105, 238",
+            "wins": 3,
+            "games": 5,
+            "votes": 15
+        }
+    }
+}

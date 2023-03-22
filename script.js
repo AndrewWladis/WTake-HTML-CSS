@@ -1,7 +1,17 @@
 import data from "./callister.json" assert { type: "json" };
 import current from "./daily.json" assert { type: "json" };
+import changeCharacter from "./themes.js";
+import themes from "./themes.json" assert { type: "json" };
+const today = new Date();
 
-const today = new Date()
+let theme = localStorage.getItem('theme');
+if (theme === 'dark') {
+    changeCharacter(themes.themes.dark)
+} else if (theme === 'aqua') {
+    changeCharacter(themes.themes.aquaman);
+} else if (theme === 'moon') {
+    changeCharacter(themes.themes.moonknight);
+}
 
 /*
 YOU SHOULD PROBABLY USE THIS UPDATE THE DATABASE WHEN SOMEONE CREATES A CHARACTER

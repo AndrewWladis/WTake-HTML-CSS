@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Permanent+Marker&display=swap');
 
+:root {
+    --body: #1D1D1D;
+    --navfooter: black;
+    --w: red;
+    --takecounter: #a6a6a6;
+    --counter: #5C5C5C;
+}
+
 @keyframes die {
     0% { width: 50%; opacity: 100%; }
     100% { width: 0%; opacity: 0%; }
@@ -17,7 +25,7 @@
 }
 
 body {
-    background-color: #1D1D1D;
+    background-color: var(--body);
 }
 
 html, body {
@@ -37,8 +45,8 @@ footer {
 
 footer p {
     font-family: Impact;
-    color: #a6a6a6;
-    background-color: black;
+    color: var(--takecounter);
+    background-color: var(--navfooter);
     font-size: 250%;
     padding: 0.5%;
     margin-bottom: 0;
@@ -47,7 +55,7 @@ footer p {
 nav {
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: var(--navfooter);
     height: 12vh;
     width: 100%;
     border-bottom: 2px solid #707070;
@@ -95,14 +103,14 @@ nav {
 .countdown {
     width: 85vmin;
     height: 20vmin;
-    background-color: #5C5C5C;
+    background-color: var(--counter);
     border-radius: 999em;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 15vmin;
-    color: #a6a6a6;
+    color: var(--takecounter);
     font-family: Verdana;
     font-weight: 600;
 }
@@ -137,6 +145,14 @@ nav {
     flex-direction: column;
 }
 
+.profile-container {
+    width: 100%;
+    height: 66vmin;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 .nav-container {
     display: flex;
     flex-direction: row;
@@ -152,10 +168,40 @@ nav {
 
 .take {
     font-family: Impact;
-    color: #a6a6a6;
+    color: var(--takecounter);
+}
+
+.themes {
+    border: 1px solid var(--takecounter);
+    width: 50%;
+    margin: 5%;
+    border-radius: 3%;
+}
+
+.themes > h1 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: var(--takecounter);
+    font-size: 8vmin;
+    margin: 3%;
+    padding: 0;
+}
+
+.themes-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.themes-container > img {
+    max-width: 110px;
+    max-height: 110px;
+    border-radius: 50%;
 }
 
 .w {
     font-family: 'Permanent Marker', cursive;
-    color: red;
+    color: var(--w);
 }

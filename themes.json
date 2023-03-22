@@ -1,0 +1,28 @@
+{
+    "themes": {
+        "dark": {
+            "body": "#1D1D1D",
+            "navfooter": "black",
+            "w": "red",
+            "takecounter": "#a6a6a6",
+            "counter": "#5C5C5C",
+            "name": "dark"
+        },
+        "moonknight": {
+            "body": "#ededed",
+            "navfooter": "white",
+            "w": "rgb(199, 215, 148)",
+            "takecounter": "#959595",
+            "counter": "#feffdb",
+            "name": "moon"
+        },
+        "aquaman": {
+            "body": "#83d4ff",
+            "navfooter": "rgb(117, 112, 255)",
+            "w": "rgb(255, 156, 69)",
+            "takecounter": "#366450",
+            "counter": "rgb(172, 214, 74)",
+            "name": "aqua"
+        }
+    }
+}

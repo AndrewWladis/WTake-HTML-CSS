@@ -61,8 +61,9 @@ function vote(currentChoice) {
     }, 995);
 
     setInterval(function(){
-        currentChoice.children[0].innerText = `${Math.floor(currentNum * (100 / total))}% Agree`
+        currentChoice.children[0].innerText = '100% Agree'
         currentChoice.children[1].innerText = `${superheroOne} > ${superTwo}` 
+        //here is where you would query the api
     }, 1500);
 }
 

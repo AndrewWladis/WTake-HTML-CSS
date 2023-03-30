@@ -4,9 +4,10 @@
             "name": "Batman",
             "universe": "DC Comics",
             "color": "4, 69, 74",
-            "wins": 3,
-            "games": 5,
-            "votes": 1
+            "wins": 8,
+            "games": 9,
+            "votes": 1,
+            "likes": 27
         },
         "SupermanDCComics": {
             "name": "Superman",
@@ -14,15 +15,17 @@
             "color": "166, 21, 194",
             "wins": 3,
             "games": 5,
-            "votes": 2
+            "votes": 2,
+            "likes": 34
         },
         "FlashDCComics": {
             "name": "Flash",
             "universe": "DC Comics",
             "color": "166, 21, 194",
-            "wins": 3,
-            "games": 5,
-            "votes": 2
+            "wins": 2,
+            "games": 20,
+            "votes": 2,
+            "likes": 60
         },
         "KidFlashDCComics": {
             "name": "Kid Flash",
@@ -30,7 +33,8 @@
             "color": "70, 178, 89",
             "wins": 3,
             "games": 5,
-            "votes": 3
+            "votes": 3,
+            "likes": 27
         },
         "SuperboyDCComics": {
             "name": "Superboy",
@@ -38,7 +42,9 @@
             "color": "75, 223, 25",
             "wins": 3,
             "games": 5,
-            "votes": 3
+            "votes": 3,
+            "likes": 27,
+            "likes": 27
         },
         "WonderWomanDCComics": {
             "name": "Wonder Woman",
@@ -46,7 +52,9 @@
             "color": "94, 234, 174",
             "wins": 3,
             "games": 5,
-            "votes": 4
+            "votes": 4,
+            "likes": 27,
+            "likes": 27
         },
         "SpiderManMarvelComics": {
             "name": "Spider-Man",
@@ -54,7 +62,9 @@
             "color": "14, 46, 249",
             "wins": 3,
             "games": 5,
-            "votes": 1
+            "votes": 1,
+            "likes": 27,
+            "likes": 27
         },
         "CaptainAmericaMarvelComics": {
             "name": "Captain America",
@@ -62,7 +72,8 @@
             "color": "238, 24, 203",
             "wins": 3,
             "games": 5,
-            "votes": 4
+            "votes": 4,
+            "likes": 27
         },
         "RedSkullMarvelComics": {
             "name": "Red Skull",
@@ -70,7 +81,9 @@
             "color": "2, 199, 178",
             "wins": 3,
             "games": 5,
-            "votes": 4
+            "votes": 4,
+            "likes": 27,
+            "likes": 27
         },
         "WolverineMarvelComics": {
             "name": "Wolverine",
@@ -78,7 +91,8 @@
             "color": "233, 75, 59",
             "wins": 3,
             "games": 5,
-            "votes": 5
+            "votes": 5,
+            "likes": 27
         },
         "IronManMarvelComics": {
             "name": "Iron Man",
@@ -86,7 +100,8 @@
             "color": "191, 70, 191",
             "wins": 3,
             "games": 5,
-            "votes": 5
+            "votes": 5,
+            "likes": 27
         },
         "MrFantasticMarvelComics": {
             "name": "Mr. Fantastic",
@@ -94,7 +109,8 @@
             "color": "240, 157, 229",
             "wins": 3,
             "games": 5,
-            "votes": 6
+            "votes": 6,
+            "likes": 27
         },
         "TheThingMarvelComics": {
             "name": "The Thing",
@@ -102,7 +118,8 @@
             "color": "211, 148, 153",
             "wins": 3,
             "games": 5,
-            "votes": 7
+            "votes": 7,
+            "likes": 27
         },
         "HulkMarvelComics": {
             "name": "Hulk",
@@ -110,7 +127,8 @@
             "color": "19, 27, 119",
             "wins": 3,
             "games": 5,
-            "votes": 8
+            "votes": 8,
+            "likes": 27
         },
         "AntManMarvelComics": {
             "name": "Ant-Man",
@@ -118,7 +136,8 @@
             "color": "212, 31, 74",
             "wins": 3,
             "games": 5,
-            "votes": 1
+            "votes": 1,
+            "likes": 27
         },
         "WaspMarvelComics": {
             "name": "Wasp",
@@ -126,7 +145,8 @@
             "color": "1, 244, 198",
             "wins": 3,
             "games": 5,
-            "votes": 6
+            "votes": 6,
+            "likes": 27
         },
         "KangMarvelComics": {
             "name": "Ant-Man",
@@ -134,7 +154,8 @@
             "color": "175, 171, 41",
             "wins": 3,
             "games": 5,
-            "votes": 6
+            "votes": 6,
+            "likes": 27
         },
         "RobinDCComics": {
             "name": "Robin",
@@ -142,7 +163,8 @@
             "color": "117, 234, 91",
             "wins": 3,
             "games": 5,
-            "votes": 7
+            "votes": 7,
+            "likes": 27
         },
         "BeastBoyDCComics": {
             "name": "Beast Boy",
@@ -150,7 +172,8 @@
             "color": "119, 46, 41",
             "wins": 3,
             "games": 5,
-            "votes": 8
+            "votes": 8,
+            "likes": 27
         },
         "StarfireDCComics": {
             "name": "Starfire",
@@ -158,7 +181,8 @@
             "color": "16, 44, 171",
             "wins": 3,
             "games": 5,
-            "votes": 8
+            "votes": 8,
+            "likes": 27
         },
         "RavenDCComics": {
             "name": "Raven",
@@ -166,7 +190,8 @@
             "color": "111, 117, 247",
             "wins": 3,
             "games": 5,
-            "votes": 9
+            "votes": 9,
+            "likes": 27
         },
         "BrainiacDCComics": {
             "name": "Brainiac",
@@ -174,7 +199,8 @@
             "color": "61, 240, 144",
             "wins": 3,
             "games": 5,
-            "votes": 1
+            "votes": 1,
+            "likes": 27
         },
         "BlackMantaDCComics": {
             "name": "Black Manta",
@@ -182,7 +208,8 @@
             "color": "249, 77, 241",
             "wins": 3,
             "games": 5,
-            "votes": 2
+            "votes": 2,
+            "likes": 27
         },
         "LexLuthorDCComics": {
             "name": "Lex Luthor",
@@ -190,7 +217,8 @@
             "color": "173, 251, 42",
             "wins": 3,
             "games": 5,
-            "votes": 3
+            "votes": 3,
+            "likes": 27
         },
         "AqualadDCComics": {
             "name": "Aqualad",
@@ -198,7 +226,8 @@
             "color": "187, 162, 135",
             "wins": 3,
             "games": 5,
-            "votes": 4
+            "votes": 4,
+            "likes": 27
         },
         "SuperboyPrimeDCComics": {
             "name": "Superboy Prime",
@@ -206,23 +235,26 @@
             "color": "81, 56, 243",
             "wins": 3,
             "games": 5,
-            "votes": 5
+            "votes": 5,
+            "likes": 27
         },
         "HalJordanDCComics": {
-            "name": "Green Lantern (Hal Jordan",
+            "name": "Green Lantern (Hal Jordan)",
             "universe": "DC Comics",
             "color": "89, 176, 160",
             "wins": 3,
             "games": 5,
-            "votes": 11
+            "votes": 11,
+            "likes": 27
         },
         "GuyGardnerDCComics": {
-            "name": "Green Lantern (Guy Gardner",
+            "name": "Green Lantern (Guy Gardner)",
             "universe": "DC Comics",
             "color": "130, 230, 134",
             "wins": 3,
             "games": 5,
-            "votes": 10
+            "votes": 10,
+            "likes": 27
         },
         "JokerDCComics": {
             "name": "Joker",
@@ -230,7 +262,8 @@
             "color": "189, 18, 163",
             "wins": 3,
             "games": 5,
-            "votes": 12
+            "votes": 12,
+            "likes": 27
         },
         "JokerJoker": {
             "name": "Joker",
@@ -238,7 +271,8 @@
             "color": "106, 160, 103",
             "wins": 3,
             "games": 5,
-            "votes": 13
+            "votes": 13,
+            "likes": 27
         },
         "AquababyDCComics": {
             "name": "Aquababy",
@@ -246,7 +280,16 @@
             "color": "101, 105, 238",
             "wins": 3,
             "games": 5,
-            "votes": 15
+            "votes": 15,
+            "likes": 27
+        },
+        "MODOKMCU": {
+            "name": "M.O.D.O.K. (Darren Cross)",
+            "universe": "Marvel Cinematic Universe",
+            "color": "255, 126, 51",
+            "wins": 6,
+            "games": 6,
+            "votes": 20
         }
     }
 }

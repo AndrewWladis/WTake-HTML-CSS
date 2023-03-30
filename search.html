@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WTake</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="h1-container" onclick="window.location.href = './index.html'">
+            <h1 class="w">W</h1>
+            <h1 class="take">TAKE</h1>
+        </div>
+        <div class="nav-container">
+            <img src="assets/icons/search.png" alt="search" onclick="window.location.href = './search.html'">
+            <img src="assets/icons/plus.png" alt="plus" onclick="window.location.href = './addcharacter.html'">
+            <img src="assets/icons/pfp.png" alt="profile" onclick="window.location.href = './profile.html'">
+        </div>
+    </nav>
+    <div class="inside-content">
+        <h1 class="upvote-section-header">DC Comics</h1>
+        <div class="upvote-section" id="upvote-section-dc-comics">
+        </div>
+        <h1 class="upvote-section-header">Marvel Comics</h1>
+        <div class="upvote-section" id="upvote-section-marvel-comics">
+        </div>
+        <h1 class="upvote-section-header">Marvel Cinematic Universe</h1>
+        <div class="upvote-section" id="upvote-section-marvel-cinematic-universe">
+        </div>
+        <footer>
+            <p>CREATED BY ANDY WLADIS</p>
+        </footer>
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h1 id="modal-name">Hi</h1>
+            <h1 id="modal-universe">Hi</h1>
+            <div id="votes-same-row">
+                <h2>👍</h2>
+                <h1 id="modal-winrate">45%</h1>
+                <h2>👎</h2>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="module" src="search.js"></script>
+</html>

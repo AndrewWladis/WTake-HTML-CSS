@@ -1,5 +1,4 @@
 import data from "./callister.json" assert { type: "json" };
-import current from "./daily.json" assert { type: "json" };
 import changeCharacter from "./themes.js";
 import themes from "./themes.json" assert { type: "json" };
 
@@ -15,7 +14,7 @@ if (theme === 'dark') {
     changeCharacter(themes.themes.moonknight);
 }
 
-function createDiv(obj) {
+function createDiv(obj, location) {
     let item = document.createElement('div');
     item.classList.add('upvote-item')
     item.innerText = obj.name;
@@ -54,18 +53,22 @@ function createDiv(obj) {
 
     }
     //make it onlick show the div with its stats and an option to upvote
-    document.getElementById(`upvote-section-${obj.universe.toLowerCase().split(' ').join('-')}`).appendChild(item);
+    document.getElementById(`upvote-section-${location}`).appendChild(item);
 }
+
+let marvelArr = [];
+let dcArr = [];
 
 for (let x in data.characters) {
     if (data.characters[x].universe.toLowerCase() === 'marvel comics') {
-        createDiv(data.characters[x])
+        marvelArr.push(data.characters[x])
     } else if (data.characters[x].universe.toLowerCase() === 'dc comics') {
-        createDiv(data.characters[x])
-    } else if (data.characters[x].universe.toLowerCase() === 'marvel cinematic universe') {
-        createDiv(data.characters[x])
+        dcArr.push(data.characters[x])
     }
 }
+
+bubbleSort(marvelArr).forEach(z => createDiv(z, 'marvel-comics'))
+bubbleSort(dcArr).forEach(z => createDiv(z, 'dc-comics'))
 
 span.onclick = function() {
     modal.style.display = "none";
@@ -78,3 +81,25 @@ setTimeout(() => {
 }, 300);
 
 modal.style.display = "none";
+
+function bubbleSort(arr) {
+    let n = arr.length;
+  
+    for (let i = 0; i < n - 1; i++) {
+      for (let j = 0; j < n - i - 1; j++) {
+        if (arr[j].likes > arr[j + 1].likes) {
+          // swap arr[j] and arr[j+1]
+          let temp = arr[j];
+          arr[j] = arr[j + 1];
+          arr[j + 1] = temp;
+        }
+      }
+    }
+  
+    return arr.slice(-10).reverse();
+}
+
+bubbleSort(Object.entries(data.characters).map(x => { return {
+    id: x[0],
+    likes: x[1].likes
+}}).filter(y => y.likes > 0)).forEach(z => createDiv(Object.values(data.characters)[Object.keys(data.characters).indexOf(z.id)], 'best'))

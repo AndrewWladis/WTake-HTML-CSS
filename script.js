@@ -77,12 +77,18 @@ for (var i = 0; i < choices.length; i++) {
         currentChoice.style.borderTopRightRadius = '5%';
         currentChoice.style.borderBottomRightRadius = '5%';
     }
-
-    let output = {};
     let currentCharacter = data.characters[current.current.characters.split(',')[i]];
 
     votesArr.push(currentCharacter.votes)
     currentChoice.style.backgroundColor = `rgb(${currentCharacter.color})`;
+    /*fetch(`https://superheroapi.com/api/100771172102270/search/${currentCharacter.name.split(' ').join('-')}`, {
+        method: 'GET',
+        headers: { "Access-Control-Allow-Origin": "*"}
+    })
+        .then(response => response.json())
+        .then(data => console.log(data));
+        
+    then set the name and universe to it*/
     currentChoice.children[0].innerText = currentCharacter.name;
     currentChoice.children[1].innerText = `${currentCharacter.universe}`;
     currentChoice.id = i.toString()
